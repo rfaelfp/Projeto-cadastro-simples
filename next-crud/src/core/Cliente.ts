@@ -14,14 +14,14 @@ export default class Cliente {
     }
 
     get id() {
-        return this.id
+        return this.#id
     }
 
     get nome() {
-        return this.nome
+        return this.#nome
     }
 
     get idade() {
-        return this.idade
+        return this.#idade
     }
 }
